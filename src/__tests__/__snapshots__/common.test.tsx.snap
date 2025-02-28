@@ -82,6 +82,8 @@ exports[`COMMON TESTS should render with default options 1`] = `
           }
         >
           <Image
+            height={14}
+            width={14}
             source={
               Object {
                 "testUri": "../../../src/assets/images/arrow_left.png",
@@ -260,6 +262,8 @@ exports[`COMMON TESTS should render with default options 1`] = `
           }
         >
           <Image
+            height={14}
+            width={14}
             source={
               Object {
                 "testUri": "../../../src/assets/images/arrow_right.png",

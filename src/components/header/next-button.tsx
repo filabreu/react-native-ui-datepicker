@@ -57,13 +57,15 @@ const NextButton = ({ style, className }: NextButtonProps) => {
         style={[defaultStyles.iconContainer, defaultStyles.next, style]}
         className={className}
       >
-        {components.IconNext || (
+        {/* {components.IconNext || (
           <Image
+            height={14}
+            width={14}
             source={arrow_right}
             tintColor={COLORS[theme].foreground}
             style={defaultStyles.icon}
           />
-        )}
+        )} */}
       </View>
     </Pressable>
   );

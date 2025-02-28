@@ -57,13 +57,15 @@ const PrevButton = ({ style, className }: PrevButtonProps) => {
         style={[defaultStyles.iconContainer, defaultStyles.prev, style]}
         className={className}
       >
-        {components.IconPrev || (
+        {/* {components.IconPrev || (
           <Image
+            height={14}
+            width={14}
             source={arrow_left}
             tintColor={COLORS[theme].foreground}
             style={defaultStyles.icon}
           />
-        )}
+        )} */}
       </View>
     </Pressable>
   );
